@@ -1,0 +1,264 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=scatter-simple&theme=dark&code=PYBwLglsB2AEC8sDeBYAULWkwBsCmAXMupqVngB5hEDkAIgEICyAyrAPItvsh7QBKAQ2gBrALQBhYAFtpAV2gQwATwBqwHHOl5YOYAHMxe_bACOcwQBMATsLCxLEQftvSaAGhJlYAZzkAjMEpqWBoWQWkQfEtYADNrGSJGMQBRaH0IaDwfWAAmAAZcgGZYADIHf0t_ADooPMKS8oBxJQAJAN0DHILi2AAdaGN_QR9shFgAClz3PIBKGi8AX08MWBcISyJUVbJ8WJCaAA4AUg8vMmsIfQALA5OzndIwUFoARnzTle9Yf2AwZ-ktCKn3OpAAxjAwIJMgAZQT-PA4IhgaxyPBLL5YYAaSAgLagzAoq76PDWWiCCgQHwPb4-a7AADudERgmUsCI-UxZApVIACsBMkEydtvmQ6Yzkai8FzRSpeOzQmCEj5qTLvjhMngWCp8PjHqKnsp5bRLCNrnhLDSDd4GRswNcFa8Cd5ls7FhivM8NL8KHqxfSGURYoIcKMZbE8IIwHJrIRiPrSKaoQAtbGA5CuhOYfyoul-62Eo1xgDaNFjYLAHlCIA0yn0MCrNDB-EE1hoAF1nZh3Y8e93MfgSdBNvHvr9_olYAAiD5TtW6PD7IhTsF8IVTj2rCgAQUpPiIxedItlRYVNAAbiG0Vb1QYGCM49Mu74wSG4yi0fPMILSZekbBXi_WAeR8OEERwBVjwLWJgGsaQoyFWgkD_NFFgWLNYEzA0fCiJQYU1fMC3FQM4hDUZnz7F0vHbTFlF3KkDyPZ85R0WgULwG9vGMe9RiIJ8MJ8V9dSwKUgJ_aw_yIQDnxAsDEUg58yBguCENJJD2LQiigJwjUwHwrJCOtYigzI9EMMoshKJorxRkubID2stBFgAbnQdBL2sBwo0EOgIArcYkCnWMcCjKBoBDKcCGLQLwu0SKpwkDUwREVpgDkUYAHpEr8lK0tGOcp1APhbFEeKABYAE5XgANmqQ4AHYCsECsIHPJRlHi15cjK15DmqMqAFYCohWQFHa88NC0PB4sOXIuuqfJ8inZYYoiaaCCnQQQGa80Mpw1sRAKoroBKw6NtyarcgG6oKtyJqWralR4uqgaXpuophpkeRFBUCbNDijaXtyCqFqWlap1i9bNu2sFdssWCqSO3gTuEM6pzKi7cn6sr7sgR6Oo2rrurKhaPvcFcvrG37JoBqdqsWrHFuW9xVtpradrwDLYg1UryeO07OvqhrqgGircda9ryqKCr6uqXJGvJkbvvGmmoYGrqilB5nWah7VW34YBkp8PaoWsBIjaR4rUfiooatl6rXnF_HOvyMr6teG6xcVymfuUP6pvK6r6pJpnwch-KQEyfRXxADLICqS2UdK87etqiqcfJ5q8cljbDkWvqme90bff92mindj3Q5ZiG1violoGAKo48uBvE4F87qsOEmBsOJ2c7p-WPbmz7i5V_6oaKIpqpDsHq_DjaIWShIdqbxeRGX2G2-tjaigx66il7zOHv7958je14vYp0fqfHm38gqkGq51-LLh8KOGUEc8WX8Y3X_fz_pp82Ru3KcrwBrdQWofTax8nobTKvTWWGMR7KxvgHc6RRChazDrXDawZVy_GACITIYIAhRlghlL-egKBb2TqAgaQt-rVT7rA9Gt1Nb5CGkXFBftVadWqhVdhYMaJThEHgZQAB9dikVoo11ppHdIMc44bH8DQtGc1DhpwztA7OLC875ALktLhVMeG3x3hXLBc8cFTkEsoHAIUm42LsVYFRQCra0LAWVfI1QL7MIJujTxfVDhkyvtw0uE8CiV1ns_DaIBYw-GeE3WJ2RniqM6lPPqwNfE2xliDW2yDjFhM6hVM-FjolTmUHIfQ8JlBBAyhUqp_gal4DEAnVxSc0YXwvt4zh2iJYsIPgNGe-SS68MJrva6T9ZFQ1iTIPA9o8DpQyjM7Q8z0qpI2vVeW1RJ5ZPOrNWq9VDEhIKaMqc9UBrS1KVM-K1xBAAC9ESvniRlW5DycBPLAOsqc6csaHB6VnPpfj5ad22Y7IxIzTFTiCUM7BtNYyOF_haRGbSQEVVFiLKBALnYd1eJrPJ4Kx5oKhZPRmUTrkbUgCIc8SiqVfNer8hWvTsVTiurNUmwzCW0wKPTK589oZRE5jBBQSYwqtMKsA7eoCwFY1xbsllniSbvA5ag2mvUGGTL5XMsElgxBQAylqywXzqogvxUy_uuQ5r70ZUrE5kKLkXKwcI-GJDtDQE-VFMpLJ4l-X1SFb1YJRitk3iiyV5cSkHzlRVQ4aLvF3QJSqqGQSMG8qsUk-Jjd_BLLiSkkN7j0ly0vli_u0t6q5LBcciFRKL4lI1VYr--0xB8AyFkCh2RtpfPOSTB2crWVYyQfGkxVbCiku1uS_l-AuZpWHKFGAYr-aSteNK7xwSi0sO6q7bxRybWVtVQ1Axo6-WwwSPBMQEJYwZSPTIQQRrJ5yxXTAoFc1aqmu3ZyqGi7ba1VrXCgBw5M22C_n-r5DVZY9x7V1RV1qfZvvisDCZZK-WtmEPWJuSH0gZuA9PG6WjV1AvvrVN2yrB2007iO2FUNTZ2GxDgOOaGvQ4A7fVWqNU5UXzdiLS-r6E02wGl479UM_Bm0jDgBxMZYwhjnRK2hl0Pa8dY4cP5C0tFceI4mxd-7yPxXZrDTmmhVxZDpbkPq9V706L8a8YOByt3Qe42M-aodhGBusLDcRTbNTSM9X6yAYJfUjG8054N4q3FozDc-zFD74pRpjV1IjhTc6Tz4whqxx0AvXDEDMgAVngCsGUeB8BYJGZz1wvm9WBv1RluHnpTxBnnWLpyMFMZTbTet21G3pE1K2_aHbBnVG7UfMzsGe59rjRWmDhNh1Nahtp3aPgNDWCNb1bx5bKuE145rc5dXIVB3gweqx2gIAalSxlfbh3CuBfnbQqe3dlsRcJhZrtTCB1xdAYtW6k265FlGNATKLEvv5VzSFzx1Rg6sfyBZuqPSVPPcGps97G14Jur8rBbIwB9gf3PQj7zyPUtfItTVx7ZqWHnN-dZ6-qn4r0sS7t2m8FrCmGAGIaEx3Wz05Kw7EWRyVvo2jf1EbUPTkXyqnDqcFAtpOGgBlUXkdhBfPYaZwFaTtnBP55Cxr_H4o4WuJkCgR3Nfa6-V414OHbszmB3zmz5Pc5fqEeTSA2hxG2QgNkDzY6oTAB8EmQQGUAAqzJ2sGYB3whTC1_km7Khg667tNtEoazCyxbMYa7SgGASTwXOpXVqsPfrCud6LQ9gI6PqrDmPyS3I49czzSLOWRXhZPgO1bJ2dn5lRmLrA9J6E055zLnq42qoPyzxLiCCYHMy4AaMp94rAjIfI-_J18DxtCqb1y49vdtdWaheJ4cJ25pilEBtCCTfEo_fQkLQuKC-0maRRroxab-asHIMwNPYF1VOPZSmixnAHvvA3vIzSAyi4PAT_bQVPC_DaV6CZUPAbQmB-WWG_UbWzOhYOYXcwZJJuFA-JEAkBV6LxK6VjHuEGIWDfKWCBHvKcTIbmOQCgT3DKcgzQKgs_C7NRWHOTW_FhNFZjKDMnZ7DBMBYXMEBuD3TNfg93TAyVC6WqDROVLvOWdvW1IleBV_MdbcZzKwPAOgbyDKINVQ0Q9xB1C1OVQZEGfQp_SFOaQRZaYRW0SwPAcRCEf6aAF3PlRxexTNZw5xErQZQ3QtMPAJOqZXC3bgiJYXNNBJTNEI4AErfNTJVgvxEtMtIg6AmtUvKbRPTmGwOQDYErK6LGJjOVW2IHeWBI0BA-SJanKGCfAfJwYfIkMfCoqfao0fOfc_VFJfCrE3QeNfc3Lg-rLfYXabTmJ5HwYQGwa9efOmXjOqG7KAuhfhbGIorqaqcwnfKcawnAKEXVYADKVYqEOlUtGQvA8uDjeY-mUo5Y_ol5YYf7ZoyVHuLxU1LnXFI3OWctFXIlQ4J40g2gyg6gr4-g3HZgznE3dg7xTgjvSFHg7fePFIjmTQsEF1OQPQWXeaP5OVLuLxHqeY_RYIjQVsN-fQcKUMLmZUFPBgqTNGB-bxbw6Y4GWqFg-Ay3KcIoLZBzcmL-SfebD1MdaQA7c8dKDY47HktZMYi-EzXreXZlaeYPK_eY0rRQw9a4Y9QQU9ZHC9BUq9G9TWYoHtJ9UFGUz9YXBkSMNqKMTmQ0z-JwIIQzPqRY1jIWPtTjAI05UWGNUg0wEYt1DKN0kqT5MY3jIwto6YizQ5TdeYi6cPYXaAOQZsJwDKSM6M9wsY4oLGAvGImaIJEWUEuQ2mN2JYqErTB6REbEbaCALYvAQAkKURWXQ4tFKQxfDMoo7qWHUg88U0EYChCTErdMy6KQkgqBV47M_IXMspCMKMGMRcWCP_Ec6MWMZSaQErOs4pOVF6CZfw7ou1IzYXWnenRnEsrciI4U9nOkrnMqHnftek57QXU4vMjaAAMUjGnLwB4jUIYC5nvLHMuMAWuOk1lmljyPyEQWU0dMhRqip0WGERcC2mK05MQxKhQ0zTQzgswxJnTh7Xw3KyKNI2F0E3ExE1cLE2Ex0LRhkw53k0U1diKPeMW1IPOOcE_MYIpynjqgDJz2KNb0IJMKrW6jI2vKnG0GkAgpAGuGOzwH4tsEEtlyDgWmYuZXeApJTPPIFxqhLzKPihEDkDuTkCbjUo0v-L6kX1BwPnZQ4pIwmObJR32F1WgB8yyH8ARNGK_JCw0U9lRPZ16nmMX24rKUsAErSz1W8rEuK0TMGi1lTMBjzn6j7KAqrU8WUuWKyGADKgy1jLwASoy1x3eAWimJYuNX9PmKYyvLKXOOIVIQHzEGuEqTwB8s7JDiyolNeghyKN4zlKsXOMgFEFJBrBAGqoatCrpixK1OMs31AuEWAH8CywrHEQRjXAtEcKsXiunShA_OSpgGAzKm7hGy5y4oyVkJ3TVltlip4otBJCbiOtPzpSZJFkgJYqN1FMfwUtMMxmFxwr_2euVNjDpQ-KpOuuBkZgdLXKJSF1IIkAAFUGB-AABJOgC9AIS4Q1MYta66fS3q94W2XrHasbKcAaSEwquQe0B5SwPaSOVcQi2DDGJipc94kWAnfs99M-Zq2mZsNKKoUkawZQVePQTShEM2Nm0ktPQmAoRhPIt7f89yocsda4Nm2wT3JaiWkYjtPS43akq_BaP6sEqtc5AqsdKat1bLa4BuYwJ3Y2bWkkulLxDbZGnnbswa0mzWvlUa8asAH0DKe27LR24ACgMQDLT-ey-isAr9L6mS9VVctWrlC1YXBGDQU_Z2y4SOkm3OLxcBPAvqdWUMsmhzFyNyNADKDKXwAICQE0-sVmuIA7IUdyVsXO_wfOoIcG4cSgcYfIVyNADyLyKEAAaTERyEQHYDGtduqFEWUB8AmE918grFmEbuzpbp8n7wCmLE93boHuLD8ErpNJrusIoHbHbCIGHv71nu8nnp8EXrzpXtrvXvbAzrQHQAnuMCMAMHQFiAUBahgE6H0GMCHu8lmGQFjGnLgE92qHghAAmHvqssgCfomCUBEo_qglgC_pjDgCgbIEhiIHAekGqEhiAkYKICYCjGuGqFfuQeqEYNmBmGfBpswewdwYMDAaCBQZptmDdFBEWDHvQB7EvpztnNUmsDvofpAbgHYbADfqhEgZgesB_u8j_q2kAe4bCkmGQcgedGEbgefHYgPHwcYJmHwZppolgGfBCnAkMm-D4cQlgHwbQcUnICoG1FsTjCQBgjdRYAgAeSknyAshdHnBccYcbpYabvLvwHSHtHGG7odr7o7oEantHtwabXtEbuUkmHwHsAgHrucmMdgAAB4Fw_HrgkmIAABqbJuR1YZu_ugJnuisYJge0JkesAWYYsCAdsRuzAZu9icYbeisYsfuuprwT3cYYwV-9iJh1YLpxAPh0J_p78WISYUAHh6oR3bIGp9sBAeARAYVRcTUSwfJsgSZsKaZ0kQ2uZgKc-7sLwTZmAbZuyA-2p4poJkYPE6ACYY56AU53Z2pmYeBrAIsAgGgA_f4UkTiTAHwZQaQX4HAexxx2ADBecXRxEfR0gYyEST8Z8GsN-Hh2gZ4EAdCb4dx0Z2Ae5x52Z2p1BtacYfu-p7Fz_E5mZ859saoQZyezx9AHFwcPgSwal7yS53u_uwelpqpxu1h3QPfJQLh4B6RkkMAJgTILBigCYVsawdRywCgdZ0gBR0cbwbk6AMh-0P-zIaoLaKIZQCYSMuxGYaV8RgBoBx-uACYPABV74JVvAaodiGpuVzsBMRhoh50eCX0WALBjVj17VkAXV_VhEnAI1s2E1yRoV0Bq15Vm1uZWB2AO1h1jYdet0WYOh3sJYMuzyEMHAAADXGGLA6e8azbsQAE183C2YmJg4nknEAG7km0nfH9AonjHcmFWaWcWKW5mWWoQSXs283EA-3qgIQrKoxQmw2zWeHJgo3XnMBbX7Wrw8Bix8hC2MXU2vBs2y2B3S2h2YBXx-Hf7_7w3zWp3rXvA52HXXgV2XRU26Wi3YBVX-2vXyHVWJhqg32-3-nm6PXH3vWcGPXX3327Ec3P3y7VXN2n2fXMgAPtXS2QPPIPXwPf3xHJW32YOcAS3-mcWdw9wl2qXVXxgkPuZsRrAJgH2P6xAAJG6sP6ID7l3kOCPyHVwDtSOKRgPYBsnKP6WyWHm6IcO6P8PEBCO9BYJSPMgMPYAKPXgqPuPqheOqRcP6PBPGO8BmOEOP6OOpPM6J6QJM3gIzZ82-2jXS3nXm6URhAcJ3cLRlDPIB2zYFPD2JhxEZg7DV7KAP74AAA-aN6B2NkRvT6wMNhIBkBALzoL4sFzk-9sfpjxwV49oSEhEKIIbcL-WwEkKVs2BViAcZ9LgLxt_xxZ2t09pVhujN1YLwatvwaQRJrwSt6thJ2trJ1J_ziJjJrJ1t7zyr9j2z6wOZklyiLwJVzrnO41vLzJ5hrjqZil6oEAdKa4CYY8FiD5r5oUK0WnEQfSVibznmLUHUax50f5wFjQKKJsCAZzfARsaVxkDsecBuFSf8Gd8EDQWCWgBkLXIIX57wRb0IWbDUS0eh3sGUSFpEB7v5gMSUeFjCTARFpQMKZcJlucWAbOwAMB1AAzaMAC5PQAHgVAA-U0AAp1QAK5VAAqOUAFl5QAO39AAYf_iVbHsG5MsEsHwHjeHFgEAAB9QAFk1YBABaOUABfU2AQAZb9AA-HTdBlE90YgwiQGw4YlgHi7sqS5S9oqlaA6Id0HhChZsYnI4doCkDJ3UHHhoEWCwlFCQDk_3El5DAS5NOS9JDl43cV6B4IFV5Um-bJFCDywEFRl15cedf7GYdmCAA
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.4.3/files/dist/echarts.min.js"></script>
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.4.3/files/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts-gl/2/files/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts-stat/latest/files/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/4.9.0/files/map/js/china.js"></script>
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/4.9.0/files/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.4.3/files/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, 'dark', {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    
+option = {
+  title: {
+      text: 'DBMS OSS OpenRank-CommunityVolume log-log quadrant diagram',
+      subtext: 'Sampled from: DB-Engines 2023 & dbdb.io 2023 & GitHub logs 2023 \nlogbases = (2, 2)'
+  },
+  grid: {
+      left: '8%',
+      right: '8%',
+      top: '10%',
+      bottom: '3%',
+      containLabel: true,
+  },
+  tooltip: {
+      trigger: 'axis',
+      showDelay : 0,
+      axisPointer:{
+          show: true,
+          type : 'cross',
+          lineStyle: {
+              type : 'dashed',
+              width : 1
+          },
+      }
+  },
+  toolbox: {
+    show: false,
+    feature: {
+        dataZoom: {},
+        brush: {
+            type: ['rect', 'polygon', 'clear']
+        }
+    }
+  },
+  legend: {
+      bottom: "0%",
+      left: "center"
+  },
+  xAxis: [
+      {
+        type : 'value',
+        logBase: 2,
+        scale: true,
+        interval: 1,
+        axisLabel : {
+            formatter: '{value}'
+        },
+        splitLine: {
+            show: false
+        }
+      }
+  ],
+  yAxis: [
+      {
+        type : 'value',
+        logBase: 2,
+        scale: true,
+        interval: 1,
+        axisLabel : {
+            formatter: '{value}'
+        },
+        splitLine: {
+            show: false
+        }
+      }
+  ],
+  series: [],
+};
+
+var dataDict = {"relational":[{"name":"ClickHouse/ClickHouse","openrank":"4916.87","activity":"12418.45","communityvolume":"8212.00"},{"name":"apache/spark","openrank":"2625.92","activity":"6565.93","communityvolume":"6529.00"},{"name":"apache/doris","openrank":"4262.44","activity":"12244.03","communityvolume":"6002.00"},{"name":"apache/flink","openrank":"1787.59","activity":"4397.27","communityvolume":"5123.00"},{"name":"StarRocks/starrocks","openrank":"3167.61","activity":"10471.99","communityvolume":"4674.00"},{"name":"pingcap/tidb","openrank":"2186.94","activity":"8008.00","communityvolume":"3711.00"},{"name":"trinodb/trino","openrank":"2684.58","activity":"6271.21","communityvolume":"3364.00"},{"name":"cockroachdb/cockroach","openrank":"3425.38","activity":"10065.19","communityvolume":"3099.00"},{"name":"risingwavelabs/risingwave","openrank":"1524.08","activity":"4607.42","communityvolume":"2302.00"},{"name":"facebookincubator/velox","openrank":"1578.46","activity":"4923.05","communityvolume":"1693.00"}],"key_value":[{"name":"pingcap/tidb","openrank":"2186.94","activity":"8008.00","communityvolume":"3711.00"},{"name":"scylladb/scylladb","openrank":"1540.19","activity":"4408.83","communityvolume":"3201.00"},{"name":"prestodb/presto","openrank":"1368.29","activity":"3979.31","communityvolume":"1906.00"},{"name":"yugabyte/yugabyte-db","openrank":"1919.15","activity":"3854.00","communityvolume":"1345.00"},{"name":"prometheus/prometheus","openrank":"727.33","activity":"2826.70","communityvolume":"7539.00"},{"name":"hazelcast/hazelcast","openrank":"942.85","activity":"2768.31","communityvolume":"834.00"},{"name":"redis/redis","openrank":"959.58","activity":"2613.31","communityvolume":"8332.00"},{"name":"tikv/tikv","openrank":"562.87","activity":"2582.03","communityvolume":"2060.00"},{"name":"apple/foundationdb","openrank":"1152.13","activity":"2404.10","communityvolume":"1878.00"},{"name":"etcd-io/etcd","openrank":"668.31","activity":"2215.37","communityvolume":"5353.00"}],"document":[{"name":"elastic/elasticsearch","openrank":"3706.38","activity":"9895.12","communityvolume":"8330.00"},{"name":"prestodb/presto","openrank":"1368.29","activity":"3979.31","communityvolume":"1906.00"},{"name":"vespa-engine/vespa","openrank":"754.61","activity":"2582.42","communityvolume":"1022.00"},{"name":"apple/foundationdb","openrank":"1152.13","activity":"2404.10","communityvolume":"1878.00"},{"name":"chroma-core/chroma","openrank":"633.23","activity":"2216.31","communityvolume":"11316.00"},{"name":"ravendb/ravendb","openrank":"877.58","activity":"2124.17","communityvolume":"295.00"},{"name":"arangodb/arangodb","openrank":"864.94","activity":"2096.47","communityvolume":"682.00"},{"name":"tarantool/tarantool","openrank":"776.16","activity":"1947.59","communityvolume":"350.00"},{"name":"surrealdb/surrealdb","openrank":"621.50","activity":"1885.04","communityvolume":"8118.00"},{"name":"apache/lucene","openrank":"528.73","activity":"1746.70","communityvolume":"1312.00"}],"search_engine":[{"name":"elastic/elasticsearch","openrank":"3706.38","activity":"9895.12","communityvolume":"8330.00"},{"name":"opensearch-project/OpenSearch","openrank":"1829.47","activity":"6369.80","communityvolume":"3076.00"},{"name":"vespa-engine/vespa","openrank":"754.61","activity":"2582.42","communityvolume":"1022.00"},{"name":"apache/solr","openrank":"618.11","activity":"1503.75","communityvolume":"675.00"},{"name":"meilisearch/meilisearch","openrank":"364.51","activity":"1174.66","communityvolume":"10092.00"},{"name":"typesense/typesense","openrank":"340.74","activity":"1017.85","communityvolume":"4572.00"},{"name":"manticoresoftware/manticoresearch","openrank":"229.86","activity":"752.80","communityvolume":"5620.00"},{"name":"marqo-ai/marqo","openrank":"161.50","activity":"489.42","communityvolume":"1991.00"},{"name":"xapian/xapian","openrank":"3.03","activity":"13.33","communityvolume":"76.00"},{"name":"sphinxsearch/sphinx","openrank":"0.14","activity":"0.72","communityvolume":"86.00"}],"time_series":[{"name":"taosdata/TDengine","openrank":"1688.05","activity":"4305.71","communityvolume":"3074.00"},{"name":"apache/iotdb","openrank":"1256.21","activity":"3001.93","communityvolume":"1709.00"},{"name":"prometheus/prometheus","openrank":"727.33","activity":"2826.70","communityvolume":"7539.00"},{"name":"VictoriaMetrics/VictoriaMetrics","openrank":"965.37","activity":"2715.82","communityvolume":"3055.00"},{"name":"timescale/timescaledb","openrank":"835.12","activity":"2019.58","communityvolume":"1914.00"},{"name":"GreptimeTeam/greptimedb","openrank":"565.05","activity":"1997.12","communityvolume":"1574.00"},{"name":"questdb/questdb","openrank":"560.25","activity":"1589.78","communityvolume":"4324.00"},{"name":"influxdata/influxdb","openrank":"272.50","activity":"956.17","communityvolume":"3015.00"},{"name":"cnosdb/cnosdb","openrank":"266.86","activity":"753.20","communityvolume":"464.00"},{"name":"ArcadeData/arcadedb","openrank":"153.22","activity":"549.22","communityvolume":"213.00"}],"wide_column":[{"name":"scylladb/scylladb","openrank":"1540.19","activity":"4408.83","communityvolume":"3201.00"},{"name":"prestodb/presto","openrank":"1368.29","activity":"3979.31","communityvolume":"1906.00"},{"name":"apache/druid","openrank":"1252.76","activity":"3140.27","communityvolume":"1381.00"},{"name":"VictoriaMetrics/VictoriaMetrics","openrank":"965.37","activity":"2715.82","communityvolume":"3055.00"},{"name":"apache/cassandra","openrank":"650.81","activity":"1569.44","communityvolume":"1263.00"},{"name":"delta-io/delta","openrank":"579.20","activity":"1537.59","communityvolume":"1601.00"},{"name":"apache/hbase","openrank":"580.31","activity":"1314.21","communityvolume":"814.00"},{"name":"influxdata/influxdb","openrank":"272.50","activity":"956.17","communityvolume":"3015.00"},{"name":"apache/accumulo","openrank":"312.85","activity":"840.41","communityvolume":"108.00"},{"name":"polarsignals/frostdb","openrank":"99.19","activity":"296.50","communityvolume":"327.00"}],"vector":[{"name":"milvus-io/milvus","openrank":"1973.63","activity":"6488.35","communityvolume":"11824.00"},{"name":"chroma-core/chroma","openrank":"633.23","activity":"2216.31","communityvolume":"11316.00"},{"name":"weaviate/weaviate","openrank":"528.63","activity":"1782.49","communityvolume":"5995.00"},{"name":"qdrant/qdrant","openrank":"509.27","activity":"1770.10","communityvolume":"12643.00"},{"name":"nuclia/nucliadb","openrank":"232.93","activity":"883.57","communityvolume":"473.00"},{"name":"activeloopai/deeplake","openrank":"337.95","activity":"796.57","communityvolume":"2472.00"},{"name":"vdaas/vald","openrank":"183.62","activity":"724.08","communityvolume":"403.00"},{"name":"featureform/featureform","openrank":"196.90","activity":"655.03","communityvolume":"528.00"},{"name":"marqo-ai/marqo","openrank":"161.50","activity":"489.42","communityvolume":"1991.00"},{"name":"FeatureBaseDB/featurebase","openrank":"67.39","activity":"307.44","communityvolume":"160.00"}],"graph":[{"name":"arangodb/arangodb","openrank":"864.94","activity":"2096.47","communityvolume":"682.00"},{"name":"surrealdb/surrealdb","openrank":"621.50","activity":"1885.04","communityvolume":"8118.00"},{"name":"apache/age","openrank":"536.87","activity":"1326.78","communityvolume":"1242.00"},{"name":"memgraph/memgraph","openrank":"367.07","activity":"1099.93","communityvolume":"1169.00"},{"name":"kuzudb/kuzu","openrank":"278.96","activity":"1038.03","communityvolume":"650.00"},{"name":"vesoft-inc/nebula","openrank":"386.99","activity":"861.18","communityvolume":"1962.00"},{"name":"dgraph-io/dgraph","openrank":"245.00","activity":"680.48","communityvolume":"1409.00"},{"name":"neo4j/neo4j","openrank":"210.01","activity":"669.27","communityvolume":"1761.00"},{"name":"apache/incubator-hugegraph","openrank":"184.01","activity":"656.85","communityvolume":"504.00"},{"name":"apache/tinkerpop","openrank":"184.85","activity":"608.23","communityvolume":"300.00"}],"object_oriented":[{"name":"neondatabase/neon","openrank":"844.52","activity":"2428.20","communityvolume":"5319.00"},{"name":"edgedb/edgedb","openrank":"532.55","activity":"1473.58","communityvolume":"2262.00"},{"name":"realm/realm-core","openrank":"514.09","activity":"1292.09","communityvolume":"91.00"},{"name":"CUBRID/cubrid","openrank":"445.96","activity":"1031.60","communityvolume":"55.00"},{"name":"authzed/spicedb","openrank":"242.87","activity":"681.56","communityvolume":"1064.00"},{"name":"cloudberrydb/cloudberrydb","openrank":"120.46","activity":"392.07","communityvolume":"193.00"},{"name":"hydradatabase/hydra","openrank":"78.94","activity":"235.09","communityvolume":"1751.00"},{"name":"orientechnologies/orientdb","openrank":"50.75","activity":"189.62","communityvolume":"241.00"},{"name":"objectbox/objectbox-java","openrank":"56.09","activity":"178.03","communityvolume":"222.00"},{"name":"orioledb/orioledb","openrank":"80.52","activity":"158.51","communityvolume":"1242.00"}]};
+
+// subCategory filter
+var subCateIndex = 0;
+var dataKeys = Object.keys(dataDict);
+// dataDict = {[dataKeys[subCateIndex]]: dataDict[dataKeys[subCateIndex]]};
+
+// log-log
+function loglog(data) {return data.map(function (item) {
+    return {
+        name: item.name,
+        openrank: Math.log(item.openrank), 
+        communityvolume: Math.log(item.communityvolume)
+      }
+    });
+}
+
+// formatter
+function format(data) {return data.map(function (item) {
+      return {
+        value: [item.openrank, item.communityvolume], 
+        label: {
+          formatter: item.name,
+          textStyle: {fontSize: 10}
+        },
+      }
+    });
+}
+
+var min_symbol_size = 5;
+var max_symbol_size = 30;
+var length = Object.keys(dataDict).length;
+var max_activity = 0;
+var min_activity = -1;
+for (let i = 0; i < length; i++) {
+  var key = Object.keys(dataDict)[i];
+  var value = dataDict[key];
+  var temp_max_activity = Math.max.apply(0, value.map(function (e) {
+        return e.activity;
+      }));
+  var temp_min_activity = Math.min.apply(0, value.map(function (e) {
+        return e.activity;
+      }));
+  if (max_activity < temp_max_activity){
+    max_activity = temp_max_activity;
+  };
+  if (min_activity < 0 || min_activity > temp_min_activity){
+    min_activity = temp_min_activity;
+  };
+};
+for (let i = 0; i < length; i++) {
+  var key = Object.keys(dataDict)[i];
+  var value = dataDict[key];
+  data = loglog(value);
+  data = format(data);
+  if (option.series[i] === undefined) {
+    option.series[i] = {};
+  }
+  option.series[i] = Object.assign(option.series[i], {
+      type:'scatter',
+	  symbol: 'circle',
+      //symbolSize: max_symbol_size,
+      label: {
+        show: true,
+        position: 'top'
+      }
+    });
+  option.series[i].name = key;
+  option.series[i].data = data;
+  option.series[i].symbolSize = value.map(function (e) {
+    var alpha_r = Math.sqrt(e.activity - min_activity)/Math.sqrt(max_activity - min_activity)
+	return alpha_r * (max_symbol_size - min_symbol_size) + min_symbol_size;
+  });
+};
+option.legend.data = Object.keys(dataDict);
+
+// limit
+function getMinMax(arr, idx) {
+    return {
+      min: Math.min.apply(null, arr.map(function (e) {
+        return e.value[idx]
+      })),
+      max: Math.max.apply(null, arr.map(function (e) {
+        return e.value[idx]
+      }))
+    }
+  }
+var allX = [];
+var allY = [];
+for (let i = 0; i < length; i++) {
+  data = option.series[i].data;
+  allX = allX.concat(data.map(function (e) {
+        return e.value[0];
+      }))
+  allY = allY.concat(data.map(function (e) {
+        return e.value[1];
+      }));
+}
+var minX = Math.min(...allX);
+var maxX = Math.max(...allX);
+var minY = Math.min(...allY);
+var maxY = Math.max(...allY);
+option.xAxis[0].min = Math.floor(minX) - 1;
+option.xAxis[0].max = Math.ceil(maxX) + 1;
+option.yAxis[0].min = Math.floor(minY) - 1;
+option.yAxis[0].max = Math.ceil(maxY) + 1;
+
+// axis
+var arr = [allX, allY]
+var transposedArr = arr[0].map((_, colIndex) => {
+    return arr.map(row => row[colIndex]);
+});
+function calculateAverage(arr) {
+  if (arr.length === 0) {
+    return 0;
+  }
+  
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  
+  return sum / arr.length;
+}
+option.series.push({
+  type:'scatter',
+  markLine : {
+    lineStyle: {
+      symbol:['circle', 'arrow'],
+      normal: {
+          color: 'white',
+          type: 'solid'
+      }
+    },
+    label:{
+          show: true,
+          position: "end", //将警示值放在哪个位置，start middle end 开头 中间 结尾
+      },
+    data: [
+        {xAxis: calculateAverage(allX), label:{formatter: 'CommunityVolume'}},
+        {yAxis: calculateAverage(allY), label:{formatter: 'OpenRank'}}
+    ]
+  },
+})
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+	window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
