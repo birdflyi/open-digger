@@ -8,7 +8,7 @@
   <meta charset="utf-8">
 </head>
 <body style="height: 100%; margin: 0">
-  <div id="container" style="height: 100%"></div>
+  <div id="container-7848469" style="height: 700px;"></div>
 
   
   <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.4.3/files/dist/echarts.min.js"></script>
@@ -31,7 +31,7 @@
   -->
 
   <script type="text/javascript">
-    var dom = document.getElementById('container');
+    var dom = document.getElementById('container-7848469');
     var myChart = echarts.init(dom, 'dark', {
       renderer: 'canvas',
       useDirtyRect: false
@@ -44,7 +44,7 @@
 option = {
   title: {
       text: 'DBMS OSS OpenRank-CommunityVolume log-log quadrant diagram',
-      subtext: 'Sampled from: DB-Engines 2023 & dbdb.io 2023 & GitHub logs 2023 \nlogbases = (2, 2)'
+      subtext: 'Sampled from: DB-Engines 2024 & dbdb.io 2024 & GitHub logs 2024 \nlogbases = (2, 2)'
   },
   grid: {
       left: '8%',
@@ -109,7 +109,7 @@ option = {
   series: [],
 };
 
-var dataDict = {"relational":[{"name":"ClickHouse/ClickHouse","openrank":"4916.87","activity":"12418.45","communityvolume":"8212.00"},{"name":"apache/spark","openrank":"2625.92","activity":"6565.93","communityvolume":"6529.00"}],"vector":[{"name":"milvus-io/milvus","openrank":"1973.63","activity":"6488.35","communityvolume":"11824.00"},{"name":"chroma-core/chroma","openrank":"633.23","activity":"2216.31","communityvolume":"11316.00"}]};
+var dataDict = {'vector': [{'name': 'milvus-io/milvus', 'index': 0, 'activity': 6978.76, 'openrank': 1955.52, 'attention': 9243.0, 'communityvolume': 9243.0}, {'name': 'weaviate/weaviate', 'index': 1, 'activity': 2580.9, 'openrank': 805.26, 'attention': 4091.0, 'communityvolume': 4091.0}, {'name': 'qdrant/qdrant', 'index': 2, 'activity': 2315.08, 'openrank': 688.86, 'attention': 7188.0, 'communityvolume': 7188.0}, {'name': 'chroma-core/chroma', 'index': 3, 'activity': 2273.5, 'openrank': 685.95, 'attention': 6965.0, 'communityvolume': 6965.0}, {'name': 'vdaas/vald', 'index': 4, 'activity': 794.7, 'openrank': 154.4, 'attention': 181.0, 'communityvolume': 181.0}, {'name': 'nuclia/nucliadb', 'index': 5, 'activity': 772.23, 'openrank': 240.85, 'attention': 183.0, 'communityvolume': 183.0}, {'name': 'marqo-ai/marqo', 'index': 6, 'activity': 499.16, 'openrank': 198.51, 'attention': 1019.0, 'communityvolume': 1019.0}, {'name': 'activeloopai/deeplake', 'index': 7, 'activity': 431.65, 'openrank': 174.7, 'attention': 1204.0, 'communityvolume': 1204.0}, {'name': 'featureform/featureform', 'index': 8, 'activity': 380.9, 'openrank': 139.17, 'attention': 275.0, 'communityvolume': 275.0}, {'name': 'vearch/vearch', 'index': 9, 'activity': 159.87, 'openrank': 60.49, 'attention': 454.0, 'communityvolume': 454.0}]};
 
 var dataKeys = Object.keys(dataDict);
 

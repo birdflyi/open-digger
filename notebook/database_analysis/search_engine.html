@@ -8,7 +8,7 @@
   <meta charset="utf-8">
 </head>
 <body style="height: 100%; margin: 0">
-  <div id="container" style="height: 100%"></div>
+  <div id="container-8072601" style="height: 700px;"></div>
 
   
   <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.4.3/files/dist/echarts.min.js"></script>
@@ -31,7 +31,7 @@
   -->
 
   <script type="text/javascript">
-    var dom = document.getElementById('container');
+    var dom = document.getElementById('container-8072601');
     var myChart = echarts.init(dom, 'dark', {
       renderer: 'canvas',
       useDirtyRect: false
@@ -44,7 +44,7 @@
 option = {
   title: {
       text: 'DBMS OSS OpenRank-CommunityVolume log-log quadrant diagram',
-      subtext: 'Sampled from: DB-Engines 2023 & dbdb.io 2023 & GitHub logs 2023 \nlogbases = (2, 2)'
+      subtext: 'Sampled from: DB-Engines 2024 & dbdb.io 2024 & GitHub logs 2024 \nlogbases = (2, 2)'
   },
   grid: {
       left: '8%',
@@ -109,7 +109,7 @@ option = {
   series: [],
 };
 
-var dataDict = {"relational":[{"name":"ClickHouse/ClickHouse","openrank":"4916.87","activity":"12418.45","communityvolume":"8212.00"},{"name":"apache/spark","openrank":"2625.92","activity":"6565.93","communityvolume":"6529.00"}],"vector":[{"name":"milvus-io/milvus","openrank":"1973.63","activity":"6488.35","communityvolume":"11824.00"},{"name":"chroma-core/chroma","openrank":"633.23","activity":"2216.31","communityvolume":"11316.00"}]};
+var dataDict = {'search_engine': [{'name': 'elastic/elasticsearch', 'index': 0, 'activity': 12452.42, 'openrank': 3912.42, 'attention': 10051.0, 'communityvolume': 10051.0}, {'name': 'opensearch-project/OpenSearch', 'index': 1, 'activity': 6451.51, 'openrank': 1826.16, 'attention': 3035.0, 'communityvolume': 3035.0}, {'name': 'vespa-engine/vespa', 'index': 2, 'activity': 2115.8, 'openrank': 643.29, 'attention': 1019.0, 'communityvolume': 1019.0}, {'name': 'manticoresoftware/manticoresearch', 'index': 3, 'activity': 1215.31, 'openrank': 372.34, 'attention': 2010.0, 'communityvolume': 2010.0}, {'name': 'meilisearch/meilisearch', 'index': 4, 'activity': 1065.24, 'openrank': 284.06, 'attention': 9412.0, 'communityvolume': 9412.0}, {'name': 'typesense/typesense', 'index': 5, 'activity': 1040.78, 'openrank': 323.17, 'attention': 5568.0, 'communityvolume': 5568.0}, {'name': 'marqo-ai/marqo', 'index': 6, 'activity': 499.16, 'openrank': 198.51, 'attention': 1019.0, 'communityvolume': 1019.0}, {'name': 'apache/lucene-solr', 'index': 7, 'activity': 23.3, 'openrank': 3.36, 'attention': 96.0, 'communityvolume': 96.0}, {'name': 'xapian/xapian', 'index': 8, 'activity': 18.27, 'openrank': 11.87, 'attention': 84.0, 'communityvolume': 84.0}]};
 
 var dataKeys = Object.keys(dataDict);
 

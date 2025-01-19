@@ -8,7 +8,7 @@
   <meta charset="utf-8">
 </head>
 <body style="height: 100%; margin: 0">
-  <div id="container" style="height: 100%"></div>
+  <div id="container-7054195" style="height: 700px;"></div>
 
   
   <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.4.3/files/dist/echarts.min.js"></script>
@@ -31,7 +31,7 @@
   -->
 
   <script type="text/javascript">
-    var dom = document.getElementById('container');
+    var dom = document.getElementById('container-7054195');
     var myChart = echarts.init(dom, 'dark', {
       renderer: 'canvas',
       useDirtyRect: false
@@ -44,7 +44,7 @@
 option = {
   title: {
       text: 'DBMS OSS OpenRank-CommunityVolume log-log quadrant diagram',
-      subtext: 'Sampled from: DB-Engines 2023 & dbdb.io 2023 & GitHub logs 2023 \nlogbases = (2, 2)'
+      subtext: 'Sampled from: DB-Engines 2024 & dbdb.io 2024 & GitHub logs 2024 \nlogbases = (2, 2)'
   },
   grid: {
       left: '8%',
@@ -109,7 +109,7 @@ option = {
   series: [],
 };
 
-var dataDict = {"relational":[{"name":"ClickHouse/ClickHouse","openrank":"4916.87","activity":"12418.45","communityvolume":"8212.00"},{"name":"apache/spark","openrank":"2625.92","activity":"6565.93","communityvolume":"6529.00"}],"vector":[{"name":"milvus-io/milvus","openrank":"1973.63","activity":"6488.35","communityvolume":"11824.00"},{"name":"chroma-core/chroma","openrank":"633.23","activity":"2216.31","communityvolume":"11316.00"}]};
+var dataDict = {'graph': [{'name': 'surrealdb/surrealdb', 'index': 0, 'activity': 2285.38, 'openrank': 766.93, 'attention': 5826.0, 'communityvolume': 5826.0}, {'name': 'kuzudb/kuzu', 'index': 1, 'activity': 1582.4, 'openrank': 454.76, 'attention': 815.0, 'communityvolume': 815.0}, {'name': 'memgraph/memgraph', 'index': 2, 'activity': 1191.26, 'openrank': 434.85, 'attention': 716.0, 'communityvolume': 716.0}, {'name': 'arangodb/arangodb', 'index': 3, 'activity': 1061.25, 'openrank': 514.9, 'attention': 605.0, 'communityvolume': 605.0}, {'name': 'apache/age', 'index': 4, 'activity': 761.78, 'openrank': 261.71, 'attention': 1318.0, 'communityvolume': 1318.0}, {'name': 'TuGraph-family/tugraph-db', 'index': 5, 'activity': 635.75, 'openrank': 210.98, 'attention': 612.0, 'communityvolume': 612.0}, {'name': 'apache/incubator-hugegraph', 'index': 6, 'activity': 578.67, 'openrank': 160.5, 'attention': 334.0, 'communityvolume': 334.0}, {'name': 'apache/tinkerpop', 'index': 7, 'activity': 549.07, 'openrank': 174.75, 'attention': 282.0, 'communityvolume': 282.0}, {'name': 'neo4j/neo4j', 'index': 8, 'activity': 528.02, 'openrank': 117.56, 'attention': 1866.0, 'communityvolume': 1866.0}, {'name': 'ArcadeData/arcadedb', 'index': 9, 'activity': 457.81, 'openrank': 136.0, 'attention': 121.0, 'communityvolume': 121.0}]};
 
 var dataKeys = Object.keys(dataDict);
 

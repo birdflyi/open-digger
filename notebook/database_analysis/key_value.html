@@ -8,7 +8,7 @@
   <meta charset="utf-8">
 </head>
 <body style="height: 100%; margin: 0">
-  <div id="container" style="height: 100%"></div>
+  <div id="container-4130180" style="height: 700px;"></div>
 
   
   <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.4.3/files/dist/echarts.min.js"></script>
@@ -31,7 +31,7 @@
   -->
 
   <script type="text/javascript">
-    var dom = document.getElementById('container');
+    var dom = document.getElementById('container-4130180');
     var myChart = echarts.init(dom, 'dark', {
       renderer: 'canvas',
       useDirtyRect: false
@@ -44,7 +44,7 @@
 option = {
   title: {
       text: 'DBMS OSS OpenRank-CommunityVolume log-log quadrant diagram',
-      subtext: 'Sampled from: DB-Engines 2023 & dbdb.io 2023 & GitHub logs 2023 \nlogbases = (2, 2)'
+      subtext: 'Sampled from: DB-Engines 2024 & dbdb.io 2024 & GitHub logs 2024 \nlogbases = (2, 2)'
   },
   grid: {
       left: '8%',
@@ -109,7 +109,7 @@ option = {
   series: [],
 };
 
-var dataDict = {"relational":[{"name":"ClickHouse/ClickHouse","openrank":"4916.87","activity":"12418.45","communityvolume":"8212.00"},{"name":"apache/spark","openrank":"2625.92","activity":"6565.93","communityvolume":"6529.00"}],"vector":[{"name":"milvus-io/milvus","openrank":"1973.63","activity":"6488.35","communityvolume":"11824.00"},{"name":"chroma-core/chroma","openrank":"633.23","activity":"2216.31","communityvolume":"11316.00"}]};
+var dataDict = {'key_value': [{'name': 'pingcap/tidb', 'index': 0, 'activity': 7574.96, 'openrank': 1881.68, 'attention': 3389.0, 'communityvolume': 3389.0}, {'name': 'scylladb/scylladb', 'index': 1, 'activity': 5193.45, 'openrank': 1677.58, 'attention': 2762.0, 'communityvolume': 2762.0}, {'name': 'prestodb/presto', 'index': 2, 'activity': 3965.96, 'openrank': 1362.15, 'attention': 1575.0, 'communityvolume': 1575.0}, {'name': 'prometheus/prometheus', 'index': 3, 'activity': 3587.36, 'openrank': 852.76, 'attention': 7724.0, 'communityvolume': 7724.0}, {'name': 'yugabyte/yugabyte-db', 'index': 4, 'activity': 3280.93, 'openrank': 1904.26, 'attention': 1226.0, 'communityvolume': 1226.0}, {'name': 'valkey-io/valkey', 'index': 5, 'activity': 2271.52, 'openrank': 591.45, 'attention': 19002.0, 'communityvolume': 19002.0}, {'name': 'tikv/tikv', 'index': 6, 'activity': 2235.48, 'openrank': 453.84, 'attention': 1947.0, 'communityvolume': 1947.0}, {'name': 'etcd-io/etcd', 'index': 7, 'activity': 2209.93, 'openrank': 511.97, 'attention': 4506.0, 'communityvolume': 4506.0}, {'name': 'wiredtiger/wiredtiger', 'index': 8, 'activity': 1912.93, 'openrank': 925.17, 'attention': 212.0, 'communityvolume': 212.0}, {'name': 'redis/redis', 'index': 9, 'activity': 1797.12, 'openrank': 486.12, 'attention': 9011.0, 'communityvolume': 9011.0}]};
 
 var dataKeys = Object.keys(dataDict);
 

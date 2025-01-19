@@ -8,7 +8,7 @@
   <meta charset="utf-8">
 </head>
 <body style="height: 100%; margin: 0">
-  <div id="container" style="height: 100%"></div>
+  <div id="container-2362133" style="height: 700px;"></div>
 
   
   <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.4.3/files/dist/echarts.min.js"></script>
@@ -31,7 +31,7 @@
   -->
 
   <script type="text/javascript">
-    var dom = document.getElementById('container');
+    var dom = document.getElementById('container-2362133');
     var myChart = echarts.init(dom, 'dark', {
       renderer: 'canvas',
       useDirtyRect: false
@@ -44,7 +44,7 @@
 option = {
   title: {
       text: 'DBMS OSS OpenRank-CommunityVolume log-log quadrant diagram',
-      subtext: 'Sampled from: DB-Engines 2023 & dbdb.io 2023 & GitHub logs 2023 \nlogbases = (2, 2)'
+      subtext: 'Sampled from: DB-Engines 2024 & dbdb.io 2024 & GitHub logs 2024 \nlogbases = (2, 2)'
   },
   grid: {
       left: '8%',
@@ -109,7 +109,7 @@ option = {
   series: [],
 };
 
-var dataDict = {"relational":[{"name":"ClickHouse/ClickHouse","openrank":"4916.87","activity":"12418.45","communityvolume":"8212.00"},{"name":"apache/spark","openrank":"2625.92","activity":"6565.93","communityvolume":"6529.00"}],"vector":[{"name":"milvus-io/milvus","openrank":"1973.63","activity":"6488.35","communityvolume":"11824.00"},{"name":"chroma-core/chroma","openrank":"633.23","activity":"2216.31","communityvolume":"11316.00"}]};
+var dataDict = {'time_series': [{'name': 'taosdata/TDengine', 'index': 0, 'activity': 3972.62, 'openrank': 1314.87, 'attention': 1980.0, 'communityvolume': 1980.0}, {'name': 'prometheus/prometheus', 'index': 1, 'activity': 3587.36, 'openrank': 852.76, 'attention': 7724.0, 'communityvolume': 7724.0}, {'name': 'VictoriaMetrics/VictoriaMetrics', 'index': 2, 'activity': 3184.37, 'openrank': 1078.98, 'attention': 3503.0, 'communityvolume': 3503.0}, {'name': 'apache/iotdb', 'index': 3, 'activity': 2636.03, 'openrank': 950.31, 'attention': 2006.0, 'communityvolume': 2006.0}, {'name': 'GreptimeTeam/greptimedb', 'index': 4, 'activity': 2149.07, 'openrank': 557.76, 'attention': 1513.0, 'communityvolume': 1513.0}, {'name': 'timescale/timescaledb', 'index': 5, 'activity': 1522.74, 'openrank': 542.85, 'attention': 2455.0, 'communityvolume': 2455.0}, {'name': 'questdb/questdb', 'index': 6, 'activity': 1440.48, 'openrank': 549.16, 'attention': 2458.0, 'communityvolume': 2458.0}, {'name': 'influxdata/influxdb', 'index': 7, 'activity': 1284.92, 'openrank': 373.58, 'attention': 3108.0, 'communityvolume': 3108.0}, {'name': 'openGemini/openGemini', 'index': 8, 'activity': 555.65, 'openrank': 164.3, 'attention': 437.0, 'communityvolume': 437.0}, {'name': 'cnosdb/cnosdb', 'index': 9, 'activity': 533.85, 'openrank': 233.66, 'attention': 345.0, 'communityvolume': 345.0}]};
 
 var dataKeys = Object.keys(dataDict);
 
